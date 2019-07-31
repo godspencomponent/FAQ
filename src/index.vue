@@ -23,7 +23,7 @@
                 <img :src="v.img" alt="">
               </div>
               <div class="faq2-content">
-                <h1 class="fd-title" :style="{color: v.titleColor, fontSize: v.titleFont}">{{v.name}}</h1>
+                <h1 class="fd-title" :style="{color: v.titleColor, fontSize: v.titleFont + 'px'}">{{v.name}}</h1>
                 <div class="faq2-body">
                   <div v-html='v.content'></div>
                 </div>
@@ -57,14 +57,14 @@
         default () {
           return [
             {
-              name: '1.问',
+              name: '问',
               isSender: true,
               img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564561942960.jpg',
               nick: '靓女',
               content: '码良有哪些能力？'
             },
             {
-              name: '2.答',
+              name: '答',
               isSender: false,
               img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564561415790.jpeg',
               nick: '帅磊',
@@ -88,7 +88,6 @@
 
 <style lang="stylus" rel="stylesheet/stylus" type="text/stylus" scoped>
   .component {
-    padding-top 20px
     width 100%
     .faq{
       display: flex;

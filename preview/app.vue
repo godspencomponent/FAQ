@@ -102,22 +102,7 @@ export default {
     return {
       componentProps: {
         type: 1,
-        list: [
-          {
-            name: '问',
-            isSender: true,
-            img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564561942960.jpg',
-            nick: '靓女',
-            content: '码良有哪些能力？'
-          },
-          {
-            name: '答',
-            isSender: false,
-            img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564561415790.jpeg',
-            nick: '帅磊',
-            content: '可以快速制作H5页面。无需掌握复杂的编程技术，通过简单拖拽、少量配置即可制作精美的页面，可用于营销场景下的页面制作。'
-          }
-        ]
+        list: []
       },
     }
   },
