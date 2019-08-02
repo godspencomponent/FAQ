@@ -72,6 +72,9 @@
             }
           ]
         },
+        editer: {
+          ignore: true // 忽略，码良基础在编辑器中不显示
+        }
       }
     },
     computed: {
