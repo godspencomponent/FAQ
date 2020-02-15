@@ -66,7 +66,7 @@
             {
               name: '答',
               isSender: false,
-              img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564561415790.jpeg',
+              img: 'https://ymm-maliang.oss-cn-hangzhou.aliyuncs.com/ymm-maliang/resource/ymm_1564568927763.png',
               nick: '帅磊',
               content: '可以快速制作H5页面。无需掌握复杂的编程技术，通过简单拖拽、少量配置即可制作精美的页面，可用于营销场景下的页面制作。'
             }
