@@ -1,7 +1,6 @@
 {
-  "name": "FAQ",
-  "namespace": "Luffy",
-  "label": "",
+  "name": "faq",
+  "label": "faq",
   "version": "1.0.4",
   "description": "对话",
   "private": true,
